@@ -17,3 +17,7 @@ function eventHandler (event) {
 
 }
 }())
+
+document.getElementById('mybtn').addEventListener('click', function(){
+    alert('Priceless');
+})
