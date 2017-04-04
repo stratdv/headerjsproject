@@ -18,6 +18,14 @@ function eventHandler (event) {
 }
 }())
 
-document.getElementById('mybtn').addEventListener('click', function(){
-    alert('Priceless');
-})
+//document.getElementById('mybtn').addEventListener('click', function(){
+//    alert('Priceless');
+//})
+
+function mOver(obj) {
+    obj.innerHTML = "Priceless"
+}
+
+function mOut(obj) {
+    obj.innerHTML = "Mouse Over Me"
+}
